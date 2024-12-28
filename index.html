@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> 
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  
+  <title>Time tracking dashboard</title>
+
+  <link rel="stylesheet" href="./style.css">
+
+</head>
+<body>
+
+  <div class="container">
+    <main>
+      <section>
+        <div class="profile-image">
+          <img src="./images/image-jeremy.png" alt="Profile image">
+          <div class="profile-text">
+            <p>Report for</p>
+          <h1>Jeremy Robson</h1>
+          </div>
+        </div>
+        <div class="data-option">
+          <h2 onclick="show('daily')" class="active">daily</h2>
+          <h2 onclick="show('weekly')">weekly</h2>
+          <h2 onclick="show('monthly')">month</h2>
+        </div>
+      </section>
+    
+      <section>
+        <div class="section-container">
+          <div class="work-option">
+            <h3>Work</h3>
+            <img src="./images/icon-ellipsis.svg">
+          </div>
+          <div class="timing">
+            <h4 ><span class="curtime">5</span>Hrs</h4>
+            <p>Last Week-<span class="totaltime">7</span>hrs</h4>
+          </div>
+        </div>
+      </section>
+    
+      <section>
+        <div class="section-container">
+          <div class="work-option">
+            <h3> Play</h3>
+            <img src="./images/icon-ellipsis.svg">
+          </div>
+          <div class="timing">
+            <h4 ><span class="curtime">1</span>Hrs</h4>
+            <p>Last Week-<span class="totaltime">2</span>hrs</h4>
+          </div>
+        </div>
+      </section>
+    
+      <section>
+        <div class="section-container">
+          <div class="work-option">
+            <h3> Study</h3>
+            <img src="./images/icon-ellipsis.svg">
+          </div>
+          <div class="timing">
+            <h4 ><span class="curtime">0</span>Hrs</h4>
+            <p>Last Week-<span class="totaltime">1</span>hrs</h4>
+          </div>
+        </div>
+      </section>
+    
+      <section>
+        <div class="section-container">
+          <div class="work-option">
+            <h3>Exercise</h3>
+            <img src="./images/icon-ellipsis.svg">
+          </div>
+          <div class="timing">
+            <h4 ><span class="curtime">1</span>Hrs</h4>
+            <p>Last Week-<span class="totaltime">1</span>hrs</h4>
+          </div>
+        </div>
+      </section>
+    
+      <section>
+        <div class="section-container">
+          <div class="work-option">
+            <h3> Social</h3>
+            <img src="./images/icon-ellipsis.svg">
+          </div>
+          <div class="timing">
+            <h4 ><span class="curtime">1</span>Hrs</h4>
+            <p>Last Week-<span class="totaltime">3</span>hrs</h4>
+          </div>
+        </div>
+      </section>
+    
+      <section>
+        <div class="section-container">
+          <div class="work-option">
+            <h3>Self Care</h3>
+            <img src="./images/icon-ellipsis.svg">
+          </div>
+          <div class="timing">
+            <h4 ><span class="curtime">0</span>Hrs</h4>
+            <p>Last Week-<span class="totaltime">1</span>hrs</h4>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
+  
+<script src="./script.js">
+</script>
+</body>
+</html>
